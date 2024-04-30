@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Londrina Solid', cursive;
+    background: linear-gradient(45deg, #863c6a, #6b1266, #160419);
+    overflow: auto;
+    
+   
+}
+
+.box-1{
+    margin-top: 3%;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 1em;
+
+}
+
+
+main{
+    
+    display: flex;
+
+}
+
+div.box-2{
+    
+    margin-top: 5.5%;
+    width: 31vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-radius: 1em;
+    overflow: hidden;    
+    
+}
+
+div.box-2 img{
+    object-fit: fill;
+    width: 26vw;
+    height: 80vh;
+
+}
+
+div.slides1{
+    display: flex;
+    transform: translateX(0);
+}
+
+.box-3{
+    margin-top: 3%;
+    width: 70vw;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 5%;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.titulo{
+    font-size: 3.5rem;
+    margin-top: 0.5em;
+    color: rgb(59, 10, 105);
+    text-shadow: 0.2rem 0.2rem 0.15rem rgba(0, 0, 0, 0.29);
+    font-weight: 300;
+    font-family: 'Londrina Solid', cursive;
+    width: 90vw;
+    margin-top: -0.5vh;
+    margin-right: -20vw;
+    display: inline;
+    
+}
+div.links{
+    
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#subtitulo{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.5rem;
+    color: #6b1266;
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    margin-left: 34.5vw;
+    
+
+}
+
+a{
+    
+    text-decoration: none;
+    margin: 1.5em;
+    background-color: rgb(102, 51, 153);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border-radius: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+
+    background-color: #51085c;
+    text-align: center;
+    color: white;
+    margin-top: 2em;
+    height: 10vh;
+    align-items: center;
+    
+}
+
+.beneficios{
+    border: 0.4em;
+    width: 20vw;
+    margin: 1em;
+    background-color: rgba(102, 51, 153, 0.655);
+    color: white;
+    text-align: center;
+    padding: 0.8em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    
+}
+
+
+#titulos2{
+    border-bottom: 2px solid rgb(102, 51, 153);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: #51085c;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    line-height: 95%;
+    text-align: justify;
+}
+
+#right{
+
+    width: 20.1vw;
+    height: 30.1vh;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: -10.1vh;
+    border-radius: 0em 1em 1em 0em;
+    opacity: 0.8;
+    
+   
+}
+

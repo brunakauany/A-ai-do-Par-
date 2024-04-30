@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Londrina Solid', cursive;
+    background: linear-gradient(45deg, #863c6a, #6b1266, #160419);
+    overflow: auto;
+    
+   
+}
+
+.box-1{
+    margin-top: 3%;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 1em;
+
+}
+main{
+    
+    display: flex;
+
+}
+
+
+.box-2{
+    margin-top: 3%;
+    width: 100vw;
+    height: 190vh;
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.cabecalho1, .cabecalho2, .cabecalho3{
+    width: 75vw;
+    height: 10vh;
+    font-size: 1.5rem;
+    border: 2px solid rgb(102, 51, 153);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #51085c;
+    color: white;
+}
+.cabecalho1{
+    border-radius: 1em 1em 0em 0em;
+    margin-top: 3vh;
+}
+
+.cabecalho2, .cabecalho3{
+    margin-top: -10vh;
+}
+
+
+.copos{
+    display: flex;
+    align-items: flex-end;
+    width: 75vw;
+    height: 45vh;
+    justify-content: space-evenly;
+    background-color: rgba(102, 51, 153, 0.300);
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-top: -10vh;
+}
+.complementos{
+    
+    display: flex;
+    width: 75vw;
+    height: 60vh;
+    background-color:  rgba(102, 51, 153, 0.300);
+    padding-bottom: 1em;
+    padding-top: 1em;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10vh;
+}
+
+.coberturas{
+    display: flex;
+    align-items: flex-end;
+    width: 75vw;
+    height: 35vh;
+    justify-content: space-evenly;
+    margin-top: vh;
+    background-color:  rgba(102, 51, 153, 0.300);
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-top: -10vh;
+    border-radius: 0em 0em 1em 1em;
+    
+    
+}
+
+#coposAcai1{
+    width: 9vw;
+    height: 18vh;
+       
+}
+#coposAcai2{
+    width: 11vw;
+    height: 22vh;
+   
+}
+#coposAcai3{
+    width: 13vw;
+    height: 26vh;  
+    
+}
+#coposAcai4{
+    width: 15vw;
+    height: 30vh;  
+    
+}
+
+#complementoAcai1{
+    width: 7vw;
+    height: 14vh;  
+    
+}
+#complementoAcai2{
+    width: 7vw;
+    height: 14vh;   
+    
+}
+#complementoAcai3{
+    width: 7vw;
+    height: 14vh;  
+    
+}
+#complementoAcai4{
+    width: 7vw;
+    height: 14vh;   
+    
+}
+#complementoAcai5{
+    width: 7vw;
+    height: 14vh;    
+    
+}
+#complementoAcai6{
+    width: 7vw;
+    height: 14vh;  
+    
+}
+#complementoAcai7{
+    width: 7vw;
+    height: 14vh;   
+    
+}
+#complementoAcai8{
+    width: 7vw;
+    height: 14vh; 
+    
+}
+#complementoAcai9{
+    width: 7vw;
+    height: 14vh;   
+    
+}
+#complementoAcai10{
+    width: 7vw;
+    height: 14vh;  
+}
+
+#coberturaAcai1, #coberturaAcai3{
+    width: 7vw;
+    height: 14vh; 
+}
+
+#coberturaAcai2{
+    width: 9vw;
+    height: 18vh;
+}
+
+button.botoesCopos{
+    display: flex;
+    align-items: center;
+    height: 2em; 
+    background-color: rgb(102, 51, 153);
+    color: white;
+    font-size: 1rem;
+    padding: 1.2em;
+    border-radius: 2em;
+    border: none;
+    
+}
+button.botoesCopos:hover{
+    background-color: rgb(128, 0, 255);
+    cursor: pointer;
+}
+button.botoesComplementos{
+    display: flex;
+    align-items: center;
+    height: 2em; 
+    background-color: rgb(102, 51, 153);
+    color: white;
+    font-size: 1rem;
+    padding: 1.2em;
+    border-radius: 2em;
+    border: none;
+    
+}
+button.botoesComplementos:hover{
+    background-color: rgba(102, 51, 153, 0.500);
+    cursor: pointer;
+}
+button.botoesCobertura{
+    display: flex;
+    align-items: center;
+    height: 2em; 
+    background-color: rgb(102, 51, 153);
+    color: white;
+    font-size: 1rem;
+    padding: 1.2em;
+    border-radius: 2em;
+    border: none;
+    
+}
+button.botoesCobertura:hover{
+    background-color: rgba(102, 51, 153, 0.500);
+    cursor: pointer;
+}
+
+.botoesECopos{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.botoesEComplementos{
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.botoesECoberturas{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+    
+}
+
+#precos{
+    font-size: 1em;
+    font-family: 'Londrina Solid', cursive;
+    color: #6b1266;
+    
+}
+
+.titulo{
+    font-size: 3.5rem;
+    margin-top: 0.5em;
+    color: rgb(59, 10, 105);
+    text-shadow: 0.2rem 0.2rem 0.15rem rgba(0, 0, 0, 0.29);
+    font-weight: 300;
+    font-family: 'Londrina Solid', cursive;
+    width: 90vw;
+    margin-top: -0.5vh;
+    margin-right: -20vw;
+    display: inline;
+    
+}
+div.links{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#subtitulo{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.5rem;
+    color: #6b1266;
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    margin-left: 34.5vw;
+    
+}
+
+a{
+    
+    text-decoration: none;
+    margin: 1.5em;
+    background-color: rgb(102, 51, 153);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border-radius: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+
+    background-color: #51085c;
+    text-align: center;
+    color: white;
+    margin-top: 2em;
+    height: 10vh;
+    align-items: center;
+    
+}
+
+.beneficios{
+    border: 0.4em;
+    width: 20vw;
+    margin: 1em;
+    background-color: rgba(102, 51, 153, 0.781);
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+      
+}
+
+
+#titulos2{
+    border-bottom: 2px solid rgb(102, 51, 153);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: #51085c;
+    font-family: 'Crimson Text', serif;
+    
+}
+
+
+#right{
+
+    width: 20.1vw;
+    height: 30.1vh;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: -10.1vh;
+    border-radius: 0em 1em 1em 0em;
+    opacity: 0.8;
+    
+}
+
+/* ------------------------Parte do MODAL-----------------*/
+
+.pedidos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80vh;
+    width: 60vw;
+    background-color: #51085c;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+div.pedidos button{
+    padding: 1em;
+    background-color: rgb(102, 51, 153);
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.5em;
+    border-radius: 2em;
+    border: none;
+    width: 10vw;
+}
+div.pedidos button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+div.pedidos input{
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    padding: 0.5em;
+    border: none;
+    width: 15vw;
+}
+div.pedidos label{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+#fade, #modal{
+    opacity: 1;
+}
+
+#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+#modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+}
+
+#modal.hide, #fade.hide{
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+div .resultado{
+    
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.865);
+    border-radius: 1em;
+    width: 35vw;
+    margin-top: -70vh;
+    float: left;
+    margin-left: 2em;
+    overflow: auto;
+    
+}
+
+/* ------------------------Parte do MODAL: TOTAL A PAGAR-----------------*/
+
+
+#abaCarrinho{
+    border-bottom: 2px solid rgb(102, 51, 153);
+    height: 6vh;
+    font-size: 1.2rem;
+    color: #6b1266;
+    font-weight: bolder;
+    margin-bottom: 1vh;
+    border-bottom: 2px solid rgb(102, 51, 153);
+    font-family: 'Crimson Text', serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #863c6a57;
+}
+.carrinho{
+    display: block;
+}
+#quantidade, #valor, #valorTotal{
+    
+    height: 10vh;
+    width: 10vw;
+    margin-left: 1.5vw;
+}
+.conteudoCarrinho1{
+   
+    font-weight: bold;
+   margin: 1em;
+   display: inline;
+   
+}
+.conteudoCarrinho2{
+    
+    font-weight: bold;
+   margin-left: 1em;
+   margin-top: 2em;
+   
+   
+}
+
+#carrinho{
+    margin-left: 1.5vw;
+}

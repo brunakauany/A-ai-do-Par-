@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js" defer></script>
+</head>
+
+<body>
+        <div id="fade" class="hide"></div>
+        <div id="modal" class="hide">
+
+            <div class="pedidos">
+                <label for="">Pedido(s):</label>
+                <input type="text" id="acai"></input> <br><br> 
+                <label for="">Quantidade:</label>
+                <input type="number" name="qtd" id="qtd-acai"> <br>
+                <button id="add-carrinho">Adicionar ao carrinho</button> <br>
+                <label for="">Complemento(s):</label>
+                <input type="text" id="complementosecobertura"></input> <br><br>
+                <button id="add-carrinho2">Adicionar Complemento</button> <br>
+               
+                <button id="fechar">Fechar</button>
+            </div>
+
+            <div class="resultado">
+                <div>
+                    <label id="abaCarrinho" for="">MEU CARRINHO</label>
+                    <label class="conteudoCarrinho1" for="">PRODUTO:</label>
+                    <label class="conteudoCarrinho1" for="">QUANTIDADE:</label>
+                    <label class="conteudoCarrinho1" for="">PREÇO:</label>
+                    <div id="carrinho"></div>
+                </div>
+            
+                <div>
+                    <br>
+                    <label class="conteudoCarrinho2" for="">VALOR TOTAL:</label> 
+                    <div id="valorTotal"></div>
+                    <label class="conteudoCarrinho2" for="">COMPLEMENTOS:</label> 
+                    <div id="complementoss"></div>
+                </div>
+            </div>
+        </div>
+
+    <div class="container">
+
+        <div class="box-1" >
+                <div class="links">
+                    <a href="index.html">Página Inicial</a>
+                    <a href="acai.html">Catálogo de Açaí</a>
+                    <a href="sistema.html">Sistema</a> 
+                </div>
+            <img id="right" src="imagens/fundo.webp" alt="">
+
+                <p class="titulo"> AÇAÍ DO PARÁ</p> 
+                <p id="subtitulo"> Cardápio</p>
+        </div>
+
+        <main>
+  
+
+        <div class="box-2">
+            <div class="cabecalho1">
+                ESCOLHA O TAMANHO DO SEU COPO:
+            </div>
+            <div class="copos">
+                <div class="botoesECopos">
+                    <img id="coposAcai1" src="cardapio/copo.png" alt="">
+                    <p id="precos">R$ 8,00</p>
+                    <button class="botoesCopos" id="ml300">300 ml</button>
+                </div>
+                
+                <div class="botoesECopos">
+                    <img id="coposAcai2" src="cardapio/copo.png" alt="">
+                    <p id="precos">R$ 12,00</p>
+                    <button class="botoesCopos" id="ml500">500 ml</button>
+                </div>
+
+                <div class="botoesECopos">
+                    <img id="coposAcai3" src="cardapio/copo.png" alt="">
+                    <p id="precos">R$ 17,00</p>
+                    <button class="botoesCopos" id="ml700">700 ml</button>
+                </div>
+
+                <div class="botoesECopos">
+                    <img id="coposAcai4" src="cardapio/copo.png" alt="">
+                    <p id="precos">R$ 26,00</p>
+                    <button class="botoesCopos" id="l1">1 L</button>
+                </div>
+            </div>
+
+            <div class="cabecalho2">
+                AGORA, ADICIONE SEUS COMPLEMENTOS:
+            </div>
+            
+            <div class="complementos">
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai1" src="cardapio/granola.png" alt="">
+                    <button class="botoesComplementos" id="granola">Granola</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai2" src="cardapio/confete.png" alt="">
+                    <button class="botoesComplementos" id="confete">Confete</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai3" src="cardapio/coco.png" alt="">
+                    <button class="botoesComplementos" id="coco">Coco Ralado</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai4" src="cardapio/kiwi.png" alt="">
+                    <button class="botoesComplementos" id="kiwi">Kiwi</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai5" src="cardapio/amendoim.png" alt="">
+                    <button class="botoesComplementos" id="amendoim">Amendoim</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai6" src="cardapio/uva.png" alt="">
+                    <button class="botoesComplementos" id="uvapassa">Uva Passa</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai7" src="cardapio/banana.png" alt="">
+                    <button class="botoesComplementos" id="banana">Banana</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai8" src="cardapio/morango.png" alt="">
+                    <button class="botoesComplementos" id="morango">Morango</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai9" src="cardapio/leite.png" alt="">
+                    <button class="botoesComplementos" id="leite">Leite em Pó</button>
+                </div>
+                <div class="botoesEComplementos">
+                    <img id="complementoAcai10" src="cardapio/pacoca.png" alt="">
+                    <button class="botoesComplementos" id="pacoca">Paçoca</button>
+                </div>
+            </div>
+
+            <div class="cabecalho3">
+                ESCOLHA A COBERTURA:
+            </div>
+                <div class="coberturas">
+                    <div class="botoesECoberturas">  
+                        <img id="coberturaAcai1" src="cardapio/cobertura1.png" alt="">
+                        <button class="botoesCobertura" id="coberturacondensado">Leite Condensado</button>
+                    </div>
+                    <div class="botoesECoberturas">
+                        <img id="coberturaAcai2" src="cardapio/cobertura2.png" alt="">
+                        <button class="botoesCobertura" id="coberturamorango">Morango</button>
+                    </div>
+                    <div class="botoesECoberturas">
+                        <img id="coberturaAcai3" src="cardapio/cobertura3.png" alt="">
+                        <button class="botoesCobertura" id="coberturachoco">Chocolate</button>
+                    </div>
+                </div>
+        </div>
+        </main>
+        <div class="footer">&copy;Açaí do Pará - Todos os direitos reservados.</div>
+    </div>
+    
+</body>
+</html>

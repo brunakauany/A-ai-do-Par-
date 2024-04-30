@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Londrina Solid', cursive;
+    background: linear-gradient(45deg, #863c6a, #6b1266, #160419);
+    overflow: auto;
+    
+   
+}
+
+.box-1{
+    margin-top: 3%;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 1em;
+
+}
+main{
+    
+    display: flex;
+
+}
+
+
+.box-2{
+    margin-top: 3%;
+    width: 45vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.titulo{
+    font-size: 3.5rem;
+    margin-top: 0.5em;
+    color: rgb(59, 10, 105);
+    text-shadow: 0.2rem 0.2rem 0.15rem rgba(0, 0, 0, 0.29);
+    font-weight: 300;
+    font-family: 'Londrina Solid', cursive;
+    width: 90vw;
+    margin-top: -0.5vh;
+    margin-right: -20vw;
+    display: inline;
+    
+}
+div.links{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#subtitulo{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.5rem;
+    color: #6b1266;
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    margin-left: 34.5vw;
+    
+
+}
+
+a{
+    
+    text-decoration: none;
+    margin: 1.5em;
+    background-color: rgb(102, 51, 153);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border-radius: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+
+    background-color: #51085c;
+    text-align: center;
+    color: white;
+    margin-top: 2em;
+    height: 10vh;
+    align-items: center;
+    
+}
+
+.informacoes{
+    border: 0.4em;
+    width: 30vw;
+    margin: 1em;
+    background-color: rgba(102, 51, 153, 0.781);
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    
+}
+
+
+#titulos2{
+    border-bottom: 1rem solid rgb(102, 51, 153);
+    font-weight: bold;
+    font-size: 1.3em;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(255, 255, 255, 0.29);
+    font-family:'Londrina Solid', cursive;
+    color: #51085c;
+    
+    
+}
+
+#right{
+
+    width: 20.1vw;
+    height: 30.1vh;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: -10.1vh;
+    border-radius: 0em 1em 1em 0em;
+    opacity: 0.8;
+    
+   
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+#computador{
+    width: 5vw;
+
+}
+.informacoes2{
+   
+    height: 40vh;
+    width: 29vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly
+}
+
+.perfil{
+    width: 2.8vw;
+    height: 6.5vh;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #863c6a;
+    border-radius: 0.3rem;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    
+}
+
+.perfil2{
+    
+    width: 22vw;
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5em;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #51085ca7;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    
+}
+.linhas{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
